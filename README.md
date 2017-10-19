@@ -83,3 +83,5 @@ http://localhost:3000?t=components
 - This package does not include NETTE installation. It is standalone template builder. (I never did something in NETTE)
 - I do not care about handling bugs. It is first quick scaffold to make pipeline working.
 
+## LATTE WTF
+- Latte can't understand minified JS in some cases. It will throw Fatal Error. It is caused by the syntax of LATTE macros. Minified JS heavily uses the same syntax. ```<script n:syntax="off"></script>``` is solution!
