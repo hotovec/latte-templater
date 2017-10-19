@@ -1,0 +1,44 @@
+
+.m-work {
+
+}
+
+.m-work--header {
+    padding: 0 20px;
+    padding-bottom: 16px;
+}
+
+.m-work--hed {
+    padding: 0;
+    margin: 0;
+    margin-bottom: $space;
+
+    font-size: rem-calc(33);
+
+    @include customUnderline($body-font-color,get-color(primary));
+
+}
+
+.m-work--description {
+    font-size: rem-calc(16);
+}
+
+.m-work--content {
+    padding: 0 20px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+.m-work--subhed {
+    font-size: rem-calc(18);
+    font-weight: 600;
+
+    &.mm-skills,
+    &.mm-experience {
+        color: #444444;
+    }
+    &.mm-skills {
+        padding-top: 16px;
+    }
+}
+

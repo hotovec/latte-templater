@@ -1,0 +1,34 @@
+
+.m-pane {
+
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: flex-start;
+    //align-items: center;
+    //position: relative;
+
+    &.mm-full {
+        height: 100%;
+    }
+
+    &.mm-centered {
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.mm-bordered {
+        border-top: 1px solid #666666;
+    }
+
+    &.mm-padded {
+        padding: 10%;
+    }
+}
+
+.m-pane--content {
+    //display: flex;
+    //flex-direction: column;
+    width: 100%;
+    //justify-content: flex-start;
+    //align-items: center;
+}

@@ -1,0 +1,75 @@
+
+.m-avatar {
+    $asize: 120px;
+
+    margin-bottom: 50px;
+    border-radius: 999px;
+    overflow: hidden;
+    width: $asize;
+    height: $asize;
+    img {
+        width: $asize;
+    }
+}
+
+
+.m-contact {
+    color: #666666;
+    position: absolute;
+    bottom: 150px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    div {
+        display: inline-block;
+    }
+
+}
+
+
+.m-more {
+    color: #666666;
+    position: absolute;
+    bottom: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+
+    div {
+        display: inline-block;
+    }
+
+}
+.m-more--image {
+    width: 70px;
+    opacity: .3;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    &:hover {
+        transition: opacity 0.3s ease;
+        opacity: 1;
+    }
+}
+
+
+.m-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16%;
+}
+
+.m-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+
+    h2 {
+        padding: 0 10px;
+        font-size: 24px;
+    }
+}

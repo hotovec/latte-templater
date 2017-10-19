@@ -1,0 +1,17 @@
+
+.m-page {
+    padding-bottom: $page-spacing;
+    padding-top: $page-spacing;
+}
+
+.h-id--publishing-platform {
+    .m-page {
+        padding-bottom: 0;
+    }
+}
+
+//.h-id--michal-hotovec {
+//    .m-page {
+//        padding-top: 0;
+//    }
+//}

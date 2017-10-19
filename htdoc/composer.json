@@ -1,0 +1,16 @@
+{
+  "name": "hotovec/latte-templater",
+  "description": "Simple latte engine implementations for building templates",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Michal Hotovec",
+      "email": "michal.hotovec@gmail.com"
+    }
+  ],
+  "require": {
+    "latte/latte": "v2.4.6",
+    "symfony/yaml": "v3.3.10"
+  }
+}
