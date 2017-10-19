@@ -91,7 +91,7 @@ gulp.task('sass:dist', function () {
 gulp.task('server', ['sass', 'webpack', 'library:bundle', 'css:bundle'], function () {
 
     browserSync.init({
-        browser: "google chrome canary",
+        browser: "google chrome",
         proxy: {
             target: 'http://127.0.0.1:8000'
         }

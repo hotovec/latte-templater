@@ -61,6 +61,10 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 
 ```src/styles``` folder contains styles (SCSS)
 
+```src/styles/foundation/_foundation.scss``` custom Foundation build
+
+```src/styles/foundation/_settings.scss``` your Foundation settings
+
 ```data/data.yml``` structured data injected to each template
 
 ```templates/*``` latte templates
