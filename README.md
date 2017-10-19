@@ -1,8 +1,8 @@
-#Standalone Latte Template boilerplate
+# Standalone Latte Template boilerplate
 
 Simple standalone boilerplate for developing Latte templates without NETTE. 
 
-##Features
+## Features
 
 - Integrated PHP server
 - Template data stored in YAML
@@ -13,13 +13,13 @@ Simple standalone boilerplate for developing Latte templates without NETTE.
 - All JS dependencies are handled by NPM and bundled to single file (see Configs)
 - Browser sync auto reload including *.latte templates
 
-####Requirements:
+#### Requirements:
 - NodeJS (>6.5)
 - Php (>5.6)
 - Composer (globaly or localy)
 
 
-##Default modules
+## Default modules
 - Basic Layout
 - Opengraph tags
 - Favicons
@@ -27,7 +27,7 @@ Simple standalone boilerplate for developing Latte templates without NETTE.
 - Typekit integration
 - Google Analytics Integration
 
-##Install
+## Install
 Installing PHP, NODE, Composer is not a feature of this tool. See Google for help.
 
 1) Clone repository 
@@ -38,7 +38,7 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 5) Install PHP dependencies ```cd htdoc``` ```composer install```
 
 
-###Run the pipeline 
+### Run the pipeline 
 
 ##### Run Php server (default 127.0.0.1:8000)
 ```
@@ -53,7 +53,7 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 > gulp server
 ```
 
-###Configs
+### Configs
 
 ```src/build``` folder contains links to libraries for bundling
 
@@ -68,7 +68,7 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 ```templates/htdoc``` PHP server public folder
 
 
-###Show different template
+### Show different template
 
 You can select different template to render thru GET parameter ```?t=templatename_without_latte_extension```
 
@@ -79,9 +79,7 @@ http://localhost:3000?t=components
 
 Template ```index.latte``` is default.
 
-
-
-##Notes:
+## Notes:
 - This package does not include NETTE installation. It is standalone template builder. (I never did something in NETTE)
 - I do not care about handling bugs. It is first quick scaffold to make pipeline working.
 
