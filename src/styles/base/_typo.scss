@@ -53,24 +53,3 @@
         }
     }
 }
-
-.f-s {
-    font-size: rem-calc(20);
-    letter-spacing: 0.13em;
-    text-transform: uppercase;
-
-    @include breakpoint(large) {
-        font-size: rem-calc(24);
-
-    }
-}
-
-.mm-subhed {
-    font-size: rem-calc(18);
-    line-height: 1.3em;
-
-    @include breakpoint(medium) {
-        font-size: rem-calc(24);
-        line-height: 1.4em;
-    }
-}

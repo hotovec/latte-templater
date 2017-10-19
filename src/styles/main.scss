@@ -10,14 +10,13 @@ $space: 20px;
 $hero-spacing:$space * 2;
 $page-spacing:$space * 2;
 
-@import "base/typescript";
-@import "base/helpers";
-@import "base/spacing";
-@import "base/typo";
-@import "base/layouts";
+//@import "base/typekit";
+//@import "base/helpers";
+//@import "base/spacing";
+//@import "base/typo";
+//@import "base/layouts";
 
 @import "dev";
 
-
-
+//show screen size helper
 @include mediaDebug();
