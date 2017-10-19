@@ -61,11 +61,11 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 
 ```src/styles``` folder contains styles (SCSS)
 
-```data/data.yml``` data structured injected to each template
+```data/data.yml``` structured data injected to each template
 
 ```templates/*``` latte templates
 
-```templates/htdoc``` PHP server public folder
+```templates/htdoc``` PHP server (public folder)
 
 
 ### Show different template
