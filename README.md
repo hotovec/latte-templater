@@ -46,7 +46,7 @@ Installing PHP, NODE, Composer is not a feature of this tool. See Google for hel
 > bash ./server.sh
 ```
 
-#####Run JS/SASS/TS compilation
+##### Run JS/SASS/TS compilation
 
 ```
 # from root of the project
@@ -77,7 +77,7 @@ You can select different template to render thru GET parameter ```?t=templatenam
 http://localhost:3000?t=components
 ```
 
-Template ```index.latte``` is default.
+```index.latte``` is default.
 
 ## Notes:
 - This package does not include NETTE installation. It is standalone template builder. (I never did something in NETTE)
